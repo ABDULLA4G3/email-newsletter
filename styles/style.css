@@ -159,4 +159,44 @@ header p {
   color: #fff;
 }
 
-/* newsletter Styling end*/
+/* card Styling start*/
+.cards {
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+.cards .container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.cards .container .card {
+  width: 32%;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+.cards .container .card i {
+  color: #32a0c2;
+  padding-bottom: 1rem;
+}
+
+.cards .container .card h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.cards .container .card p {
+  padding-bottom: 1rem;
+}
+
+/* card Styling end*/
+
+footer {
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #32a0c2;
+  text-align: center;
+  font-size: 1.2rem;
+}
